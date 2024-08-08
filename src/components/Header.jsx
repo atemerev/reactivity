@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -11,7 +11,12 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/services">Services</Nav.Link>
+            <NavDropdown title="Services" id="services-dropdown">
+              <NavDropdown.Item as={Link} to="/services/finance-trading">Finance/Trading</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/intelligence-analysis">Intelligence Analysis</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/medicine">Medicine</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/forensics">Forensics</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           </Nav>

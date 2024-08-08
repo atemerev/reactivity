@@ -7,6 +7,10 @@ import Home from './components/Home';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
+import FinanceTrading from './components/services/FinanceTrading';
+import IntelligenceAnalysis from './components/services/IntelligenceAnalysis';
+import Medicine from './components/services/Medicine';
+import Forensics from './components/services/Forensics';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/finance-trading" element={<FinanceTrading />} />
+            <Route path="/services/intelligence-analysis" element={<IntelligenceAnalysis />} />
+            <Route path="/services/medicine" element={<Medicine />} />
+            <Route path="/services/forensics" element={<Forensics />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
