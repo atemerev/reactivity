@@ -29,3 +29,7 @@ a {
 a:hover {
   color: #0082b3;
 }
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
