@@ -12,7 +12,7 @@ function Home() {
             <Card.Body className="d-flex flex-column">
               <Card.Title><span className="text-primary fw-bold">&gt;</span>Finance/Trading</Card.Title>
               <Card.Text className="flex-grow-1">
-                Leverage AI for data-driven financial decisions, optimized trading strategies, and effective risk management.
+                Transform your financial operations with AI-powered market making, strategy optimization, and cutting-edge predictive insights.
               </Card.Text>
               <Button as={Link} to="/services/finance-trading" variant="outline-primary" className="mt-auto">
                 Learn More
@@ -25,7 +25,7 @@ function Home() {
             <Card.Body className="d-flex flex-column">
               <Card.Title><span className="text-primary fw-bold">&gt;</span>Intelligence Analysis</Card.Title>
               <Card.Text className="flex-grow-1">
-                Process and analyze large volumes of data to extract meaningful insights and actionable intelligence.
+                Uncover hidden patterns and gain strategic insights with our AI-driven network analysis, influence mapping, and deep content analysis.
               </Card.Text>
               <Button as={Link} to="/services/intelligence-analysis" variant="outline-primary" className="mt-auto">
                 Learn More
@@ -38,7 +38,7 @@ function Home() {
             <Card.Body className="d-flex flex-column">
               <Card.Title><span className="text-primary fw-bold">&gt;</span>Forensics</Card.Title>
               <Card.Text className="flex-grow-1">
-                Enhance investigative capabilities with AI-driven forensic analysis, evidence processing, and pattern recognition.
+                Revolutionize your investigations with AI-powered digital forensics, cryptocurrency tracking, and advanced anomaly detection.
               </Card.Text>
               <Button as={Link} to="/services/forensics" variant="outline-primary" className="mt-auto">
                 Learn More
