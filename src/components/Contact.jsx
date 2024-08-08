@@ -17,8 +17,7 @@ function Contact() {
       {
         from_name: name,
         from_email: email,
-        message: message,
-        to_email: 'at@reactivity.ai'
+        message: message
       },
       'tpMRtOajr-c3TjZhI'
     )
