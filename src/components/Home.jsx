@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -35,6 +36,13 @@ function Home() {
               </Card.Text>
             </Card.Body>
           </Card>
+        </Col>
+      </Row>
+      <Row className="mt-5">
+        <Col className="text-center">
+          <Button as={Link} to="/contact" variant="primary" size="lg">
+            Contact Us
+          </Button>
         </Col>
       </Row>
     </Container>
