@@ -10,30 +10,39 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title>AI Strategy</Card.Title>
+              <Card.Title>Finance/Trading</Card.Title>
               <Card.Text className="flex-grow-1">
-                We help businesses develop and implement effective AI strategies to stay ahead in the competitive market.
+                Leverage AI for data-driven financial decisions, optimized trading strategies, and effective risk management.
               </Card.Text>
+              <Button as={Link} to="/services/finance-trading" variant="primary" className="mt-auto">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title>Machine Learning Solutions</Card.Title>
+              <Card.Title>Intelligence Analysis</Card.Title>
               <Card.Text className="flex-grow-1">
-                Our expert team designs and develops custom machine learning solutions tailored to your specific needs.
+                Process and analyze large volumes of data to extract meaningful insights and actionable intelligence.
               </Card.Text>
+              <Button as={Link} to="/services/intelligence-analysis" variant="primary" className="mt-auto">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title>AI Integration</Card.Title>
+              <Card.Title>Medicine</Card.Title>
               <Card.Text className="flex-grow-1">
-                We assist in seamlessly integrating AI technologies into your existing systems and workflows.
+                Improve patient care with AI-powered medical image analysis, predictive diagnostics, and personalized treatment plans.
               </Card.Text>
+              <Button as={Link} to="/services/medicine" variant="primary" className="mt-auto">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
         </Col>
