@@ -36,11 +36,11 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title><span className="text-primary fw-bold">&gt;</span>Medicine</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Forensics</Card.Title>
               <Card.Text className="flex-grow-1">
-                Improve patient care with AI-powered medical image analysis, predictive diagnostics, and personalized treatment plans.
+                Enhance investigative capabilities with AI-driven forensic analysis, evidence processing, and pattern recognition.
               </Card.Text>
-              <Button as={Link} to="/services/medicine" variant="outline-primary" className="mt-auto">
+              <Button as={Link} to="/services/forensics" variant="outline-primary" className="mt-auto">
                 Learn More
               </Button>
             </Card.Body>
