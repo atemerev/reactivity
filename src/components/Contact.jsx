@@ -12,15 +12,15 @@ function Contact() {
     e.preventDefault();
     
     emailjs.send(
-      'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-      'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+      'service_swpdi7h',
+      'template_8gyrun9',
       {
         from_name: name,
         from_email: email,
         message: message,
         to_email: 'at@reactivity.ai'
       },
-      'YOUR_USER_ID' // Replace with your EmailJS user ID
+      'tpMRtOajr-c3TjZhI'
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
