@@ -14,7 +14,7 @@ function Home() {
               <Card.Text className="flex-grow-1">
                 Leverage AI for data-driven financial decisions, optimized trading strategies, and effective risk management.
               </Card.Text>
-              <Button as={Link} to="/services/finance-trading" variant="outline-primary" className="mt-auto">
+              <Button as={Link} to="/services/finance-trading" variant="primary" className="mt-auto">
                 Learn More
               </Button>
             </Card.Body>
@@ -27,7 +27,7 @@ function Home() {
               <Card.Text className="flex-grow-1">
                 Process and analyze large volumes of data to extract meaningful insights and actionable intelligence.
               </Card.Text>
-              <Button as={Link} to="/services/intelligence-analysis" variant="outline-primary" className="mt-auto">
+              <Button as={Link} to="/services/intelligence-analysis" variant="primary" className="mt-auto">
                 Learn More
               </Button>
             </Card.Body>
@@ -40,7 +40,7 @@ function Home() {
               <Card.Text className="flex-grow-1">
                 Improve patient care with AI-powered medical image analysis, predictive diagnostics, and personalized treatment plans.
               </Card.Text>
-              <Button as={Link} to="/services/medicine" variant="outline-primary" className="mt-auto">
+              <Button as={Link} to="/services/medicine" variant="primary" className="mt-auto">
                 Learn More
               </Button>
             </Card.Body>
