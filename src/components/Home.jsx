@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 function Home() {
   return (
     <Container>
-      <h1 className="text-center mb-5">Welcome to Reactivity AI Consulting</h1>
+      <h1 className="text-center mb-5">Welcome to <span className="text-primary">Reactivity AI</span> Consulting</h1>
       <Row className="h-100">
         <Col md={4} className="mb-4">
           <Card className="h-100">
