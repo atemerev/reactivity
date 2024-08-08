@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Alert } from 'react-bootstrap';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   const [name, setName] = useState('');
