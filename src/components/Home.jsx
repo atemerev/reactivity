@@ -10,7 +10,7 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title>Finance/Trading</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Finance/Trading</Card.Title>
               <Card.Text className="flex-grow-1">
                 Leverage AI for data-driven financial decisions, optimized trading strategies, and effective risk management.
               </Card.Text>
@@ -23,7 +23,7 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title>Intelligence Analysis</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Intelligence Analysis</Card.Title>
               <Card.Text className="flex-grow-1">
                 Process and analyze large volumes of data to extract meaningful insights and actionable intelligence.
               </Card.Text>
@@ -36,7 +36,7 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100">
             <Card.Body className="d-flex flex-column">
-              <Card.Title>Medicine</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Medicine</Card.Title>
               <Card.Text className="flex-grow-1">
                 Improve patient care with AI-powered medical image analysis, predictive diagnostics, and personalized treatment plans.
               </Card.Text>
