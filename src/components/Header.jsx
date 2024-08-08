@@ -6,7 +6,7 @@ function Header() {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand as={Link} to="/">Reactivity</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><span className="text-primary fw-bold">&gt;</span>Reactivity</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
