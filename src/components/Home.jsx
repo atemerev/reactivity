@@ -18,7 +18,7 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100 shadow-sm">
             <Card.Body className="d-flex flex-column">
-              <Card.Title><span className="text-primary fw-bold">&gt;</span> Finance & Trading</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Finance & Trading</Card.Title>
               <Card.Text className="flex-grow-1">
                 Supercharge your financial strategies with AI-powered market making, predictive analytics, and risk management. 
                 Stay ahead in the fast-paced world of finance.
@@ -32,7 +32,7 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100 shadow-sm">
             <Card.Body className="d-flex flex-column">
-              <Card.Title><span className="text-primary fw-bold">&gt;</span> Intelligence Analysis</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Intelligence Analysis</Card.Title>
               <Card.Text className="flex-grow-1">
                 Uncover critical insights with our AI-driven network analysis, influence mapping, and deep content analysis. 
                 Transform data into actionable intelligence.
@@ -46,7 +46,7 @@ function Home() {
         <Col md={4} className="mb-4">
           <Card className="h-100 shadow-sm">
             <Card.Body className="d-flex flex-column">
-              <Card.Title><span className="text-primary fw-bold">&gt;</span> Forensics</Card.Title>
+              <Card.Title><span className="text-primary fw-bold">&gt;</span>Forensics</Card.Title>
               <Card.Text className="flex-grow-1">
                 Revolutionize your investigations with AI-powered digital forensics, cryptocurrency tracking, and 
                 advanced anomaly detection. Uncover the truth with unprecedented precision.
